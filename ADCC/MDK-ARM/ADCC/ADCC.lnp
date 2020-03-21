@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"adcc\startup_stm32f401xc.o"
+"adcc\main.o"
+"adcc\stm32f4xx_it.o"
+"adcc\stm32f4xx_hal_msp.o"
+"adcc\stm32f4xx_hal_adc.o"
+"adcc\stm32f4xx_hal_adc_ex.o"
+"adcc\stm32f4xx_hal_rcc.o"
+"adcc\stm32f4xx_hal_rcc_ex.o"
+"adcc\stm32f4xx_hal_flash.o"
+"adcc\stm32f4xx_hal_flash_ex.o"
+"adcc\stm32f4xx_hal_flash_ramfunc.o"
+"adcc\stm32f4xx_hal_gpio.o"
+"adcc\stm32f4xx_hal_dma_ex.o"
+"adcc\stm32f4xx_hal_dma.o"
+"adcc\stm32f4xx_hal_pwr.o"
+"adcc\stm32f4xx_hal_pwr_ex.o"
+"adcc\stm32f4xx_hal_cortex.o"
+"adcc\stm32f4xx_hal.o"
+"adcc\stm32f4xx_hal_exti.o"
+"adcc\stm32f4xx_hal_tim.o"
+"adcc\stm32f4xx_hal_tim_ex.o"
+"adcc\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "ADCC\ADCC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADCC.map" -o ADCC\ADCC.axf
