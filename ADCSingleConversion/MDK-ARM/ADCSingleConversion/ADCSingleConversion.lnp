@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"adcsingleconversion\startup_stm32f401xc.o"
+"adcsingleconversion\main.o"
+"adcsingleconversion\stm32f4xx_it.o"
+"adcsingleconversion\stm32f4xx_hal_msp.o"
+"adcsingleconversion\stm32f4xx_hal_adc.o"
+"adcsingleconversion\stm32f4xx_hal_adc_ex.o"
+"adcsingleconversion\stm32f4xx_hal_rcc.o"
+"adcsingleconversion\stm32f4xx_hal_rcc_ex.o"
+"adcsingleconversion\stm32f4xx_hal_flash.o"
+"adcsingleconversion\stm32f4xx_hal_flash_ex.o"
+"adcsingleconversion\stm32f4xx_hal_flash_ramfunc.o"
+"adcsingleconversion\stm32f4xx_hal_gpio.o"
+"adcsingleconversion\stm32f4xx_hal_dma_ex.o"
+"adcsingleconversion\stm32f4xx_hal_dma.o"
+"adcsingleconversion\stm32f4xx_hal_pwr.o"
+"adcsingleconversion\stm32f4xx_hal_pwr_ex.o"
+"adcsingleconversion\stm32f4xx_hal_cortex.o"
+"adcsingleconversion\stm32f4xx_hal.o"
+"adcsingleconversion\stm32f4xx_hal_exti.o"
+"adcsingleconversion\stm32f4xx_hal_tim.o"
+"adcsingleconversion\stm32f4xx_hal_tim_ex.o"
+"adcsingleconversion\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "ADCSingleConversion\ADCSingleConversion.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADCSingleConversion.map" -o ADCSingleConversion\ADCSingleConversion.axf
