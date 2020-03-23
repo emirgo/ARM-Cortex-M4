@@ -1,6 +1,6 @@
 Dependencies for Project 'ex01', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (.\main.c)(0x5E78F52E)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\emirg\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\emirg\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.10.0\Board-IC:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5E78F8F8)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\emirg\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\emirg\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.10.0\Board-IC:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5C7122)
 I (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5C5C7122)
 I (C:\Users\emirg\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2671B6)
@@ -11,6 +11,8 @@ I (C:\Users\emirg\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cms
 I (C:\Users\emirg\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C902ED4)
 I (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5C5C7122)
 I (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.10.0\Board\Board_LED.h)(0x5D14FE6A)
+I (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.10.0\Board\Board_Buttons.h)(0x5D14FE6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9BB318)
 F (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32NUCLEO_BSP\1.7.0\Boards\ST\NUCLEO-F446RE\Common\Buttons_NUCLEO-F446RE.c)(0x56C5D9B4)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\emirg\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\emirg\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.10.0\Board-IC:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F446xx-o .\objects\buttons_nucleo-f446re.o --omf_browse .\objects\buttons_nucleo-f446re.crf --depend .\objects\buttons_nucleo-f446re.d)
 I (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5C5C7122)
 I (C:\Users\emirg\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x5C5C7122)
