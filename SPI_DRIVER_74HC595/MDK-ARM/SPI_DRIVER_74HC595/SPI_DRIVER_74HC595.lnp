@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+"spi_driver_74hc595\startup_stm32f411xe.o"
+"spi_driver_74hc595\main.o"
+"spi_driver_74hc595\stm32f4xx_it.o"
+"spi_driver_74hc595\stm32f4xx_hal_msp.o"
+"spi_driver_74hc595\stm32f4xx_hal_spi.o"
+"spi_driver_74hc595\stm32f4xx_hal_rcc.o"
+"spi_driver_74hc595\stm32f4xx_hal_rcc_ex.o"
+"spi_driver_74hc595\stm32f4xx_hal_flash.o"
+"spi_driver_74hc595\stm32f4xx_hal_flash_ex.o"
+"spi_driver_74hc595\stm32f4xx_hal_flash_ramfunc.o"
+"spi_driver_74hc595\stm32f4xx_hal_gpio.o"
+"spi_driver_74hc595\stm32f4xx_hal_dma_ex.o"
+"spi_driver_74hc595\stm32f4xx_hal_dma.o"
+"spi_driver_74hc595\stm32f4xx_hal_pwr.o"
+"spi_driver_74hc595\stm32f4xx_hal_pwr_ex.o"
+"spi_driver_74hc595\stm32f4xx_hal_cortex.o"
+"spi_driver_74hc595\stm32f4xx_hal.o"
+"spi_driver_74hc595\stm32f4xx_hal_exti.o"
+"spi_driver_74hc595\stm32f4xx_hal_tim.o"
+"spi_driver_74hc595\stm32f4xx_hal_tim_ex.o"
+"spi_driver_74hc595\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "SPI_DRIVER_74HC595\SPI_DRIVER_74HC595.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "SPI_DRIVER_74HC595.map" -o SPI_DRIVER_74HC595\SPI_DRIVER_74HC595.axf

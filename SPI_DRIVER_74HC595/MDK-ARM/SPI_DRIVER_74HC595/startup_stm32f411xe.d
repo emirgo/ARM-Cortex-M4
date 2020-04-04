@@ -1,0 +1,1 @@
+spi_driver_74hc595\startup_stm32f411xe.o: startup_stm32f411xe.s
