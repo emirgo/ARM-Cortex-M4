@@ -44,19 +44,7 @@
 SPI_HandleTypeDef hspi2;
 
 /* USER CODE BEGIN PV */
-uint8_t _data[10] = 
-{
-	0x3f,
-	0x06,
-	0x5b,
-	0x4f,
-	0x66,
-	0x6d,
-	0x7d,
-	0x07,
-	0x7f,
-	0x6f
-};
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -64,12 +52,12 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_SPI2_Init(void);
 /* USER CODE BEGIN PFP */
-void shift_out(uint8_t *data, uint16_t size);
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+#include "74hc595.h"
 /* USER CODE END 0 */
 
 /**
@@ -115,11 +103,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		for(uint8_t index = 0; index < 10; index++)
-		{
-			shift_out(_data + index, 1);
-			HAL_Delay(1000);
-		}
+		SEG_count_example(&hspi2);
   }
   /* USER CODE END 3 */
 }
@@ -233,18 +217,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void shift_out(uint8_t *data, uint16_t size)
-{
-	// Low on latch_1 to trigger first digit
-	HAL_GPIO_WritePin(GPIOD, LATCH_1_Pin, GPIO_PIN_RESET);
-	
-	// Write data to SPI bus
-	HAL_SPI_Transmit(&hspi2, data, size, 100);
-	
-	// Data is ready, set latch_1 to HIGH
-	HAL_GPIO_WritePin(GPIOD, LATCH_1_Pin, GPIO_PIN_SET);
-	
-}
+
 /* USER CODE END 4 */
 
 /**
