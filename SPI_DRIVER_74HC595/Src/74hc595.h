@@ -30,7 +30,6 @@ void SEG_shift_out(uint8_t *data, uint16_t size, SPI_HandleTypeDef *hspi)
 
 	// Data is ready, set latch_1 to HIGH
 	HAL_GPIO_WritePin(GPIOD, LATCH_1_Pin, GPIO_PIN_SET);
-	
 }
 
 void SEG_count_example(SPI_HandleTypeDef *hspi)
