@@ -1,3 +1,6 @@
+// Author: Emirhan Gocturk
+// Date: 4 April 2020
+
 #include "main.h"
 
 // 7 Segment display data. Only numeric.
