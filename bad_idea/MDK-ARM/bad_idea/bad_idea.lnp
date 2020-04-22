@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"bad_idea\startup_stm32f446xx.o"
+"bad_idea\main.o"
+"bad_idea\stm32f4xx_it.o"
+"bad_idea\stm32f4xx_hal_msp.o"
+"bad_idea\stm32f4xx_hal_dac.o"
+"bad_idea\stm32f4xx_hal_dac_ex.o"
+"bad_idea\stm32f4xx_hal_rcc.o"
+"bad_idea\stm32f4xx_hal_rcc_ex.o"
+"bad_idea\stm32f4xx_hal_flash.o"
+"bad_idea\stm32f4xx_hal_flash_ex.o"
+"bad_idea\stm32f4xx_hal_flash_ramfunc.o"
+"bad_idea\stm32f4xx_hal_gpio.o"
+"bad_idea\stm32f4xx_hal_dma_ex.o"
+"bad_idea\stm32f4xx_hal_dma.o"
+"bad_idea\stm32f4xx_hal_pwr.o"
+"bad_idea\stm32f4xx_hal_pwr_ex.o"
+"bad_idea\stm32f4xx_hal_cortex.o"
+"bad_idea\stm32f4xx_hal.o"
+"bad_idea\stm32f4xx_hal_exti.o"
+"bad_idea\stm32f4xx_hal_tim.o"
+"bad_idea\stm32f4xx_hal_tim_ex.o"
+"bad_idea\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "bad_idea\bad_idea.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "bad_idea.map" -o bad_idea\bad_idea.axf
